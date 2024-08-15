@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="A comprehensive HTML tags example">
+    <meta name="keywords" content="HTML, tags, example">
+    <meta name="author" content="Your Name">
+    <title>HTML Tags Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header, footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        main {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        h2, h3 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            margin-bottom: 10px;
+        }
+
+        ul, ol {
+            margin-bottom: 20px;
+            padding-left: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        th, td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+
+        th {
+            background-color: #333;
+            color: #fff;
+        }
+
+        figure {
+            margin: 0;
+            text-align: center;
+        }
+
+        figcaption {
+            margin-top: 10px;
+            font-style: italic;
+            color: #555;
+        }
+
+        aside {
+            background-color: #f9f9f9;
+            padding: 10px;
+            border-left: 5px solid #333;
+            margin-bottom: 20px;
+        }
+
+        fieldset {
+            margin-bottom: 20px;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+
+        legend {
+            font-weight: bold;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="date"],
+        textarea,
+        select {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #555;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to the HTML Tags Example Page</h1>
+        <nav>
+            <ul>
+                <li><a href="#introduction">Introduction</a></li>
+                <li><a href="#content">Content</a></li>
+                <li><a href="#media">Media</a></li>
+                <li><a href="#form">Form</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="introduction">
+            <h2>Introduction</h2>
+            <p>This page is a demonstration of various HTML tags.</p>
+            <blockquote>
+                "The only way to learn a new programming language is by writing programs in it." - Dennis Ritchie
+            </blockquote>
+        </section>
+
+        <section id="content">
+            <h2>Content Section</h2>
+            <article>
+                <h3>Text Formatting</h3>
+                <p>This is a paragraph with <strong>strong</strong> emphasis and <em>italicized</em> text. Here's a <mark>highlighted</mark> text, and a <del>deleted</del> word.</p>
+                <p>This is a <small>small text</small> and this is a <sub>subscript</sub> and <sup>superscript</sup> example.</p>
+                <p>Code example: <code>print("Hello, World!")</code></p>
+                <p>Variable example: <var>x</var> = 10</p>
+            </article>
+
+            <article>
+                <h3>Lists</h3>
+                <ul>
+                    <li>Unordered List Item 1</li>
+                    <li>Unordered List Item 2</li>
+                </ul>
+                <ol>
+                    <li>Ordered List Item 1</li>
+                    <li>Ordered List Item 2</li>
+                </ol>
+                <dl>
+                    <dt>HTML</dt>
+                    <dd>A markup language for creating web pages.</dd>
+                    <dt>CSS</dt>
+                    <dd>A stylesheet language for styling web pages.</dd>
+                </dl>
+            </article>
+
+            <article>
+                <h3>Tables</h3>
+                <table>
+                    <caption>Sample Table</caption>
+                    <thead>
+                        <tr>
+                            <th>Header 1</th>
+                            <th>Header 2</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Data 1</td>
+                            <td>Data 2</td>
+                        </tr>
+                        <tr>
+                            <td>Data 3</td>
+                            <td>Data 4</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </article>
+        </section>
+
+        <aside>
+            <h3>Aside Section</h3>
+            <p>This is an aside section that contains additional information.</p>
+        </aside>
+
+        <section id="media">
+            <h2>Media Section</h2>
+            <figure>
+                <img src="https://via.placeholder.com/150" alt="Placeholder Image">
+                <figcaption>Figure 1: A placeholder image.</figcaption>
+            </figure>
+
+            <audio controls>
+                <source src="audio.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+
+            <video width="320" height="240" controls>
+                <source src="movie.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+
+        <section id="form">
+            <h2>Form Section</h2>
+            <form action="/submit" method="post">
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name"><br><br>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email"><br><br>
+
+                    <label for="dob">Date of Birth:</label>
+                    <input type="date" id="dob" name="dob"><br><br>
+
+                    <label for="gender">Gender:</label>
+                    <select id="gender" name="gender">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select><br><br>
+
+                    <label for="bio">Biography:</label>
+                    <textarea id="bio" name="bio"></textarea><br><br>
+
+                    <label for="agree">Agree to terms:</label>
+                    <input type="checkbox" id="agree" name="agree"><br><br>
+
+                    <input type="submit" value="Submit">
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
